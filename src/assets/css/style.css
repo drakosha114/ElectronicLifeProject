@@ -1,0 +1,17 @@
+@import "~normalize.css";
+body {
+    background: azure;
+}
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.canvas__wrapper {
+    width: 800px;
+    height: 600px;
+    background-color: #FFF;
+}
